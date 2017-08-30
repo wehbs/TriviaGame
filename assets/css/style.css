@@ -1,0 +1,15 @@
+body {
+    background-image: url(../images/apple.png);
+
+}
+.trivBox {
+  background-color: #afd7a2;
+}
+.trivBoxHead {
+  font-size: 50px;
+  font-family: 'Cinzel', serif;
+  text-align: center;
+}
+#startGame {
+  font-size: 60px;
+}
