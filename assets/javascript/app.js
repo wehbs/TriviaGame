@@ -100,7 +100,7 @@ $(document).ready(function() {
   }
 
 
-  // TODO: The page will reveal the number of questions that players answer correctly and incorrectly.
+  // TODO: The page will reveal the number of questions that players leave unanswered.
 
 
 });
