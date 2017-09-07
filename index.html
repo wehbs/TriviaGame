@@ -40,10 +40,12 @@
         <div class="hideGame">
           <div id="visibleGame">
 
+          <div id="timer">Time Remaining: 30</div>
+            <br>
             <p>What is the name of Apple's first product? </p>
             <form>
               <input type="radio" name="answer" value="wrong"> Macintosh
-              <input type="radio" name="answer" value="right"> Apple 1
+              <input type="radio" name="answer" value="right" id="correct1"> Apple 1
               <input type="radio" name="answer" value="wrong"> iPhone
               <input type="radio" name="answer" value="wrong"> iPod
             </form>
@@ -53,20 +55,20 @@
               <input type="radio" name="answer" value="wrong"> Portland, OR
               <input type="radio" name="answer" value="wrong"> San Francisco, CA
               <input type="radio" name="answer" value="wrong"> Palo Alto, CA
-              <input type="radio" name="answer" value="right"> McLean, VA
+              <input type="radio" name="answer" value="right" id="correct2"> McLean, VA
             </form>
             <br>
             <p>On what year was Apple founded? </p>
             <form>
               <input type="radio" name="answer" value="wrong"> 1980
-              <input type="radio" name="answer" value="right"> 1976
+              <input type="radio" name="answer" value="right" id="correct3"> 1976
               <input type="radio" name="answer" value="wrong"> 1989
               <input type="radio" name="answer" value="wrong"> 1990
             </form>
             <br>
             <p>What was the name of Apple's game console? </p>
             <form>
-              <input type="radio" name="answer" value="right"> Pippin
+              <input type="radio" name="answer" value="right" id="correct4"> Pippin
               <input type="radio" name="answer" value="wrong"> Atari
               <input type="radio" name="answer" value="wrong"> Walli
               <input type="radio" name="answer" value="wrong"> Apple Cube
@@ -77,13 +79,13 @@
               <input type="radio" name="answer" value="wrong"> Incredible
               <input type="radio" name="answer" value="wrong"> Intergrated
               <input type="radio" name="answer" value="wrong"> Innovation
-              <input type="radio" name="answer" value="right"> Internet
+              <input type="radio" name="answer" value="right" id="correct5"> Internet
             </form>
             <br>
             <p>When Apple first went public what was the cost of 1 share? </p>
             <form>
               <input type="radio" name="answer" value="wrong"> $17
-              <input type="radio" name="answer" value="right"> $22
+              <input type="radio" name="answer" value="right" id="correct6"> $22
               <input type="radio" name="answer" value="wrong"> $5
               <input type="radio" name="answer" value="wrong"> $46
             </form>
@@ -93,13 +95,13 @@
               <input type="radio" name="answer" value="wrong"> San Francisco, CA
               <input type="radio" name="answer" value="wrong"> Palo Alto, CA
               <input type="radio" name="answer" value="wrong"> Los Angeles, CA
-              <input type="radio" name="answer" value="right"> Cupertino, CA
+              <input type="radio" name="answer" value="right" id="correct7"> Cupertino, CA
             </form>
             <br>
             <p>Apple's original logo featured who? </p>
             <form>
               <input type="radio" name="answer" value="wrong"> Albert Einstein
-              <input type="radio" name="answer" value="right"> Isaac Newton
+              <input type="radio" name="answer" value="right" id="correct8"> Isaac Newton
               <input type="radio" name="answer" value="wrong"> Alan Turing
               <input type="radio" name="answer" value="wrong"> Steve Jobs
             </form>
@@ -107,6 +109,18 @@
               <button id="doneGame" class="btn btn-primary btn-lg btn-block" type="submit">Done</button>
 
           </div>
+
+<div id="visibleEndGame">
+<h1 class="allDone">All Done!</h1>
+<br>
+<h1>Correct</h1>
+<h2 id="correct"></h2>
+<h1>Incorrect</h1>
+<h2 id="incorrect"></h2>
+<h1>Unanswered</h1>
+<h2 id="unanswered"></h2>
+</div>
+
         </div>
 
 

@@ -1,6 +1,5 @@
 body {
     background-image: url(../images/apple.png);
-
 }
 p {
   font-size: 40px;
@@ -9,7 +8,6 @@ p {
 form {
   text-align: center;
 }
-
 .trivBox {
   background-color: #afd7a2;
 }
@@ -21,6 +19,17 @@ form {
 .hideGame {
   display: none;
 }
+.allDone {
+  font-size: 50px;
+}
+#visibleEndGame {
+  text-align: center;
+}
 #startGame, #doneGame {
   font-size: 60px;
+}
+#timer {
+  font-size: 60px;
+  text-align: center;
+  color: red;
 }
