@@ -10,7 +10,7 @@ $(document).ready(function() {
   // ===========================================================
   var correct = 0;
   var incorrect = 0;
-  var unanswered = 0;
+  // var unanswered = 0;
 
   // BUTTON ACTIONS
   // ===========================================================
@@ -96,7 +96,7 @@ $(document).ready(function() {
 
     $("#correct").html(correct);
     $("#incorrect").html(incorrect);
-    $("#unanswered").html(unanswered);
+    // $("#unanswered").html(unanswered);
   }
 
 
