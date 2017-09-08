@@ -96,11 +96,7 @@ $(document).ready(function() {
 
     $("#correct").html(correct);
     $("#incorrect").html(incorrect);
-    // $("#unanswered").html(unanswered);
   }
-
-
-  // TODO: The page will reveal the number of questions that players leave unanswered.
 
 
 });
