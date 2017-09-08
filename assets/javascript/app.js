@@ -3,7 +3,7 @@ $(document).ready(function() {
   // ===========================================================
   var showGame = $("#visibleGame");
   var showEndGame = $("#visibleEndGame");
-  var time = 45;
+  var time = 40;
   var intervalId;
 
   // COUNTERS
